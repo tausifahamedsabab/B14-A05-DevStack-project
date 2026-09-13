@@ -1,6 +1,10 @@
 export interface ITechnology {
-  id: number;
+  id: string;
   name: string;
-  icon: string;
   category: string;
+  description: string;
+  icon: string;
+  rating: number;
+  difficulty: string;
+  badge: string;
 }
