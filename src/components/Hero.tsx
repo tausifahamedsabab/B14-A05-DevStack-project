@@ -13,9 +13,8 @@ const Hero = () => {
         </h1>
 
         <p className="mt-5 text-sm leading-7 text-gray-500 md:text-base">
-          Explore frontend, backend, database, and tooling options, compare
-          them side by side, and put together the stack that fits your next
-          project.
+          Explore frontend, backend, database, and tooling options, compare them
+          side by side, and put together the stack that fits your next project.
         </p>
 
         <div className="mt-7 flex justify-center gap-3 md:justify-start">
