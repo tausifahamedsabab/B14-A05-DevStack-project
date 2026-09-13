@@ -9,12 +9,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5">
           {/* Brand Block */}
           <div className="lg:col-span-2">
-            {/* Same Logo as Navbar */}
-            <img
-              src={devstackLogo}
-              alt="DevStack"
-              className="h-10 w-auto object-contain"
-            />
+            <a href="/" className="inline-block">
+              <img
+                src={devstackLogo}
+                alt="DevStack logo"
+                className="h-12 w-auto object-contain"
+              />
+            </a>
 
             <p className="mt-4 max-w-sm text-sm leading-6 text-slate-500">
               Build your ideal developer stack with the best technologies,
@@ -26,7 +27,7 @@ const Footer = () => {
               <a
                 href="https://github.com/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 aria-label="GitHub"
                 className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-sm font-bold text-slate-700 transition hover:bg-slate-900 hover:text-white"
               >
@@ -36,7 +37,7 @@ const Footer = () => {
               <a
                 href="https://twitter.com/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 aria-label="Twitter"
                 className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-sm font-bold text-slate-700 transition hover:bg-slate-900 hover:text-white"
               >
@@ -46,7 +47,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 aria-label="LinkedIn"
                 className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-sm font-bold text-slate-700 transition hover:bg-blue-600 hover:text-white"
               >
@@ -57,23 +58,32 @@ const Footer = () => {
 
           {/* Product Links */}
           <div>
-            <h3 className="mb-4 font-semibold text-slate-900">
-              Product
-            </h3>
+            <h3 className="mb-4 font-semibold text-slate-900">Product</h3>
 
             <ul className="space-y-3 text-sm text-slate-500">
               <li>
-                <a href="#technologies" className="hover:text-pink-500">
+                <a
+                  href="#technologies"
+                  className="transition hover:text-pink-500"
+                >
                   Technologies
                 </a>
               </li>
+
               <li>
-                <a href="#your-stack" className="hover:text-pink-500">
+                <a
+                  href="#your-stack"
+                  className="transition hover:text-pink-500"
+                >
                   Your Stack
                 </a>
               </li>
+
               <li>
-                <a href="#features" className="hover:text-pink-500">
+                <a
+                  href="#features"
+                  className="transition hover:text-pink-500"
+                >
                   Features
                 </a>
               </li>
@@ -82,23 +92,29 @@ const Footer = () => {
 
           {/* Company Links */}
           <div>
-            <h3 className="mb-4 font-semibold text-slate-900">
-              Company
-            </h3>
+            <h3 className="mb-4 font-semibold text-slate-900">Company</h3>
 
             <ul className="space-y-3 text-sm text-slate-500">
               <li>
-                <a href="#about" className="hover:text-pink-500">
+                <a href="#about" className="transition hover:text-pink-500">
                   About Us
                 </a>
               </li>
+
               <li>
-                <a href="#contact" className="hover:text-pink-500">
+                <a
+                  href="#contact"
+                  className="transition hover:text-pink-500"
+                >
                   Contact
                 </a>
               </li>
+
               <li>
-                <a href="#careers" className="hover:text-pink-500">
+                <a
+                  href="#careers"
+                  className="transition hover:text-pink-500"
+                >
                   Careers
                 </a>
               </li>
@@ -107,23 +123,29 @@ const Footer = () => {
 
           {/* Legal Links */}
           <div>
-            <h3 className="mb-4 font-semibold text-slate-900">
-              Legal
-            </h3>
+            <h3 className="mb-4 font-semibold text-slate-900">Legal</h3>
 
             <ul className="space-y-3 text-sm text-slate-500">
               <li>
-                <a href="#privacy" className="hover:text-pink-500">
+                <a
+                  href="#privacy"
+                  className="transition hover:text-pink-500"
+                >
                   Privacy Policy
                 </a>
               </li>
+
               <li>
-                <a href="#terms" className="hover:text-pink-500">
+                <a href="#terms" className="transition hover:text-pink-500">
                   Terms of Service
                 </a>
               </li>
+
               <li>
-                <a href="#cookies" className="hover:text-pink-500">
+                <a
+                  href="#cookies"
+                  className="transition hover:text-pink-500"
+                >
                   Cookie Policy
                 </a>
               </li>
@@ -138,10 +160,11 @@ const Footer = () => {
           </p>
 
           <div className="flex gap-5">
-            <a href="#privacy" className="hover:text-pink-500">
+            <a href="#privacy" className="transition hover:text-pink-500">
               Privacy
             </a>
-            <a href="#terms" className="hover:text-pink-500">
+
+            <a href="#terms" className="transition hover:text-pink-500">
               Terms
             </a>
           </div>
