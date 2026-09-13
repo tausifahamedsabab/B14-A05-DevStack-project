@@ -1,24 +1,35 @@
-🚀 DevStack
+# 🚀 DevStack
 
-DevStack is a modern and responsive technology stack builder built with React and TypeScript. It allows users to explore different web development technologies and add their preferred technologies to a personal stack.
+DevStack is a modern and responsive technology stack builder built with **React** and **TypeScript**. It allows users to explore different web development technologies and add their preferred technologies to a personal stack.
 
 The project focuses on a clean UI, responsive design, reusable React components, and simple state management.
 
-✨ Features
-🧩 Explore Technologies
+## ✨ Features
+
+### 🧩 Explore Technologies
+
 Browse different web development technologies with their icons, categories, and information.
-🛠️ Build Your Own Stack
+
+### 🛠️ Build Your Own Stack
+
 Add your favorite technologies to your personal stack and easily remove them whenever you want.
-📱 Fully Responsive
+
+### 📱 Fully Responsive
+
 Designed to provide a smooth experience across desktop, tablet, and mobile devices.
-🛠️ Technologies Used
-React
-TypeScript
-Tailwind CSS
-Vite
-React Toastify
-JSON
-📂 Project Structure
+
+## 🛠️ Technologies Used
+
+* React
+* TypeScript
+* Tailwind CSS
+* Vite
+* React Toastify
+* JSON
+
+## 📂 Project Structure
+
+```text
 src/
 ├── assets/
 ├── components/
@@ -26,34 +37,48 @@ src/
 ├── types/
 ├── App.tsx
 ├── index.css
-├──  main.tsx
-🚀 Getting Started
+└── main.tsx
+```
 
-Clone the repository and install the dependencies:
+## 🚀 Getting Started
 
-git clone <your-repository-url>
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
 cd devstack
+```
+
+### 2. Install dependencies
+
+```bash
 npm install
+```
 
-Run the development server:
+### 3. Run the development server
 
+```bash
 npm run dev
+```
 
 Then open the local development URL provided by Vite in your browser.
 
-🎯 Purpose
+## 🎯 Purpose
 
-This project was built to practice and demonstrate modern frontend development concepts including:
+This project was built to practice and demonstrate modern frontend development concepts, including:
 
-React Components
-TypeScript Interfaces and Types
-Props
-State Management with useState
-Side Effects with useEffect
-Responsive UI with Tailwind CSS
-Reusable Components
-Data Mapping
-User Interaction and Toast Notifications
+* React Components
+* TypeScript Interfaces and Types
+* Props
+* State Management with `useState`
+* Side Effects with `useEffect`
+* Responsive UI with Tailwind CSS
+* Reusable Components
+* Data Mapping
+* User Interaction
+* Toast Notifications
+
+
 
 ## ❓ React Questions
 
